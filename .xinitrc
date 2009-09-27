@@ -12,7 +12,7 @@ xbindkeys
 #export GTK_IM_MODULE="scim"
 #export QT_IM_MODULE="scim"
 
-scim -d
+#scim -d
 
 while true
 do
