@@ -1,0 +1,16 @@
+" 1.2 (created: 2008/08/16 18:51:52)
+" Mappings
+
+" Options
+set laststatus=0
+set showstatuslinks=2
+set focuscontent
+set showtabline=1
+set newtab=addons,downloads,javascript
+
+" Abbreviations
+
+source! ~/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+

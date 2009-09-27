@@ -1,0 +1,16 @@
+port                "6600"
+music_directory     "~/music"
+playlist_directory  "~/.mpd/playlists"
+db_file             "~/.mpd/mpd.db"
+log_file            "~/.mpd/mpd.log"
+error_file          "~/.mpd/mpd.error"
+filesystem_charset  "UTF-8"
+
+audio_output {
+  type    "httpd"
+  name    "mpd HTTP Stream"
+  encoder "vorbis"
+  port    "8000"
+  bitrate "128"
+  format  "44100:16:1"
+}

@@ -1,0 +1,45 @@
+#include "/home/zach/.xrdb/look-zenburn.xrdb"
+
+Xcursor.theme: neutral-plus
+
+urxvt.background:      COLOR_BG
+urxvt.foreground:      COLOR_FG
+
+*color0:               COLOR_TERM_BLACK
+*color8:               COLOR_TERM_DARK_GRAY
+
+*color1:               COLOR_TERM_DARK_RED
+*color9:               COLOR_TERM_LIGHT_RED
+
+*color2:               COLOR_TERM_DARK_GREEN
+*color10:              COLOR_TERM_LIGHT_GREEN
+
+*color3:               COLOR_TERM_DARK_YELLOW
+*color11:              COLOR_TERM_LIGHT_YELLOW
+
+*color4:               COLOR_TERM_DARK_BLUE
+*color12:              COLOR_TERM_LIGHT_BLUE
+
+*color5:               COLOR_TERM_DARK_MAGENTA
+*color13:              COLOR_TERM_LIGHT_MAGENTA
+
+*color6:               COLOR_TERM_DARK_CYAN
+*color14:              COLOR_TERM_LIGHT_CYAN
+
+*color7:               COLOR_TERM_DARK_GRAY
+*color15:              COLOR_TERM_WHITE
+
+urxvt.fading:          50
+urxvt.transparent:     true
+urxvt.tintColor:       #000000
+urxvt.shading:         10
+urxvt.scrollBar:       false
+urxvt.jumpScroll:      true
+urxvt.font:            -misc-fixed-medium-r-*-*-10-*-*-*-*-*-*-*
+urxvt.boldFont:        -misc-fixed-medium-r-*-*-10-*-*-*-*-*-*-*
+urxvt.urlLauncher:     firefox
+urxvt.matcher.button:  1
+urxvt.title:           urxvtc
+urxvt.antialias:       false
+urxvt.internalBorder:  1
+urxvt.perl-ext-common: default,searchable-scrollback<M-#>

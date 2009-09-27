@@ -1,0 +1,13 @@
+[user]
+	name = Zach Ewert
+	email = zachanima@gmail.com
+  signingkey = zachanima@gmail.com
+
+[push]
+  default = matching
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto

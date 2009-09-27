@@ -1,0 +1,33 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+* {
+  font-size: 9pt !important;
+}
+
+tab,
+.tabbrowser-tab,
+.tabbrowser-tabs,
+.tabbrowser-strip {
+  max-height: 18px !important;
+  border-bottom: 0px !important;
+}
+
+.tabs-bottom {
+  display: none !important;
+}
+
+tab:not([selected = "true"]) .tab-icon {
+  display: none !important;
+}
+
+.tabs-closetab-button {
+  display: none !important;
+}
+
+.tabs-newtab-button {
+  display: none !important;
+}
+
+#content tab:not([selected = "true"]) {
+  -moz-opacity: 0.5 !important;
+}
